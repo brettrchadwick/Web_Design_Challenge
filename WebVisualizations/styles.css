@@ -1,0 +1,11 @@
+body{
+    background-color:lightgray;
+    color:black;
+    }
+
+
+.navbar-brand{
+    color:white;
+    margin-left:25px;
+    padding:inherit;
+}
