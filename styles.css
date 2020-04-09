@@ -9,3 +9,51 @@ body{
     margin-left:25px;
     padding:inherit;
 }
+
+.container img{
+    display: inline;
+    margin: auto;
+}
+h2{
+    color:black;
+    text-align: left;
+}
+h3{
+    text-align:center;
+}
+
+.box {
+    background-color:white;
+    margin-top:35px;
+    margin-bottom:20px;
+    padding:12px 15px 10px;
+    color:black;
+
+}
+#imageNav-area {
+
+    padding: 20px 2px 5px;
+
+  }
+
+.imageNav-header {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #120fe4;
+  }
+  
+.imageNav-photo {
+    width: 170px;
+    height: 170px;
+  }
+  #images {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .img-box{
+    background-color: white;
+    margin-top:60px;
+    overflow: auto;
+    height: auto;
+  }
