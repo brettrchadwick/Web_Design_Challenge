@@ -41,6 +41,82 @@
             </ul>
          </div>
       </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-7">
+            <br>
+            <div class="box">
+              <h2 class="title">Latitude vs. Max Temperature</h2>
+              <hr>
+              <br>
+              <a href="lattemp.html"><img src="Resources/assets/latmaxtemp.png" class="img-fluid rounded float-left" alt="MaxTemp"></a>
+              <p>After initial visual inspection of the graph, there appears to be some type of relationship between latitude and max temperature. Linear regression was then performed to determine if 
+                a mathematical model could explain the results. The data was split into the northern hemisphere and southern hemisphere so that a more valid result could be obtained. The linear regression
+                graphs are displayed below. The line equation is displayed on each graph.
+              </p>
+              <br>
+            </div>
+           
+          </div>
+          
+    
+    
+              <div class="col-md-4">
+                <div class="img-box">
+                <section id="imageNav-area">
+                 <div class="imageNav-content">
+                   <h3 class="imageNav-header">Visualizations</h3>
+                  <hr />
+                   <div id="images">
+                  <a href="lattemp.html"><img src="Resources/assets/latmaxtemp.png" alt="Max Temperature" class="imageNav-photo" style="border:2px solid black"></a>
+                  <a href="lathumidity.html"><img src="Resources/assets/lathumidity.png" alt="Humidity" class="imageNav-photo"></a>
+                  <a href="latcloud.html"><img src="Resources/assets/latcloud.png" alt="Cloudiness" class="imageNav-photo" ></a>
+                  <a href="latwind.html"><img src="Resources/assets/latwindspeed.png" alt="Wind Speed" class="imageNav-photo"></a>
+                    </div>
+                   </div>
+                  </section>
+                </div>
+              </div>
+          </div>
+          
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <br>
+                <div class="box">
+                  <h2 class="title">Latitude vs. Max Temp Linear Regression-Northern Hemisphere</h2>
+                  <hr>
+                  <br>
+                  <img src="Resources/assets/lattempnorthregress.png" class="rounded float-left" alt="TempNRegress">
+                  <br><br><br><br><br><br><br><br><br><br><br><br>
+                  <p>The r-squared value is -0.81, which shows a strong negative correlation between latitude and max
+                    temperature. As the latitude increases, the max temp decreases. This makes sense because
+                    the further north you go, the colder it gets.
+                    
+                  </p>
+                </div>
+                
+               </div>
+               <div class="col-md-6 col-sm-12">
+                <br>
+                <div class="box">
+                  <h2 class="title">Latitude vs. Max Temp Linear Regression-Southern Hemisphere</h2>
+                  <hr>
+                  <br>
+                  <img src="Resources/assets/lattempsouthregress.png" class="img-fluid rounded float-left" alt="TempSRegress">
+                  <br><br><br><br><br><br><br><br><br><br><br><br>
+                  <p>The r-squared value is 0.24 which for this particular dataset means there is no correlation
+                    from a mathematical standpoint. This can be due to the outliers and abnormal values that can
+                    be seen by looking at the graph. As the latitude approaches 0, there are quite a few points
+                    that have low max temperatures.
+                    </p>
+                  
+                </div>
+                
+                
+               </div>
+              </div>
+            </div>
+          </div>
 
 
 
